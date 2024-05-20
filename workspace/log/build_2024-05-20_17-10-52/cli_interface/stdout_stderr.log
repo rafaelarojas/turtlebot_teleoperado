@@ -1,0 +1,30 @@
+running egg_info
+writing ../build/cli_interface/cli_interface.egg-info/PKG-INFO
+writing dependency_links to ../build/cli_interface/cli_interface.egg-info/dependency_links.txt
+writing entry points to ../build/cli_interface/cli_interface.egg-info/entry_points.txt
+writing requirements to ../build/cli_interface/cli_interface.egg-info/requires.txt
+writing top-level names to ../build/cli_interface/cli_interface.egg-info/top_level.txt
+reading manifest file '../build/cli_interface/cli_interface.egg-info/SOURCES.txt'
+writing manifest file '../build/cli_interface/cli_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/build
+creating /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/build/lib
+creating /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/build/lib/cli_interface
+copying cli_interface/cli_interface.py -> /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/build/lib/cli_interface
+copying cli_interface/__init__.py -> /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/build/lib/cli_interface
+running install
+running install_lib
+creating /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/python3.10/site-packages/cli_interface
+copying /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/build/lib/cli_interface/cli_interface.py -> /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/python3.10/site-packages/cli_interface
+copying /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/build/lib/cli_interface/__init__.py -> /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/python3.10/site-packages/cli_interface
+byte-compiling /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/python3.10/site-packages/cli_interface/cli_interface.py to cli_interface.cpython-310.pyc
+byte-compiling /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/python3.10/site-packages/cli_interface/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/cli_interface -> /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/ament_index/resource_index/packages
+copying package.xml -> /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/cli_interface
+running install_egg_info
+removing '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/python3.10/site-packages/cli_interface-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/cli_interface/cli_interface.egg-info to /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/python3.10/site-packages/cli_interface-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/install.log'

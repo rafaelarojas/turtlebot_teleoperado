@@ -1,0 +1,25 @@
+[0.881s] Invoking command in '/home/rafa/turtlebot_teleoperado/workspace/cli_interface': PYTHONPATH=/home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/prefix_override:/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cli_interface build --build-base /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/build install --record /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/install.log --single-version-externally-managed install_data
+[1.157s] running egg_info
+[1.158s] creating ../build/cli_interface/cli_interface.egg-info
+[1.158s] writing ../build/cli_interface/cli_interface.egg-info/PKG-INFO
+[1.158s] writing dependency_links to ../build/cli_interface/cli_interface.egg-info/dependency_links.txt
+[1.158s] writing entry points to ../build/cli_interface/cli_interface.egg-info/entry_points.txt
+[1.158s] writing requirements to ../build/cli_interface/cli_interface.egg-info/requires.txt
+[1.159s] writing top-level names to ../build/cli_interface/cli_interface.egg-info/top_level.txt
+[1.159s] writing manifest file '../build/cli_interface/cli_interface.egg-info/SOURCES.txt'
+[1.159s] reading manifest file '../build/cli_interface/cli_interface.egg-info/SOURCES.txt'
+[1.161s] writing manifest file '../build/cli_interface/cli_interface.egg-info/SOURCES.txt'
+[1.161s] running build
+[1.161s] running install
+[1.161s] running install_data
+[1.161s] creating /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/ament_index
+[1.162s] creating /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/ament_index/resource_index
+[1.162s] creating /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/ament_index/resource_index/packages
+[1.162s] copying resource/cli_interface -> /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/ament_index/resource_index/packages
+[1.162s] copying package.xml -> /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/cli_interface
+[1.162s] running install_egg_info
+[1.164s] Copying ../build/cli_interface/cli_interface.egg-info to /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/python3.10/site-packages/cli_interface-0.0.0-py3.10.egg-info
+[1.165s] running install_scripts
+[1.185s] Installing cli_interface script to /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/cli_interface
+[1.185s] writing list of installed files to '/home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/install.log'
+[1.230s] Invoked command in '/home/rafa/turtlebot_teleoperado/workspace/cli_interface' returned '0': PYTHONPATH=/home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/prefix_override:/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cli_interface build --build-base /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/build install --record /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/install.log --single-version-externally-managed install_data

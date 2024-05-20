@@ -1,0 +1,24 @@
+[0.893s] Invoking command in '/home/rafa/turtlebot_teleoperado/workspace/bringup': PYTHONPATH=/home/rafa/turtlebot_teleoperado/workspace/build/bringup/prefix_override:/home/rafa/turtlebot_teleoperado/workspace/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bringup build --build-base /home/rafa/turtlebot_teleoperado/workspace/build/bringup/build install --record /home/rafa/turtlebot_teleoperado/workspace/build/bringup/install.log --single-version-externally-managed install_data
+[1.164s] running egg_info
+[1.164s] creating ../build/bringup/bringup.egg-info
+[1.164s] writing ../build/bringup/bringup.egg-info/PKG-INFO
+[1.164s] writing dependency_links to ../build/bringup/bringup.egg-info/dependency_links.txt
+[1.165s] writing entry points to ../build/bringup/bringup.egg-info/entry_points.txt
+[1.165s] writing requirements to ../build/bringup/bringup.egg-info/requires.txt
+[1.165s] writing top-level names to ../build/bringup/bringup.egg-info/top_level.txt
+[1.165s] writing manifest file '../build/bringup/bringup.egg-info/SOURCES.txt'
+[1.166s] reading manifest file '../build/bringup/bringup.egg-info/SOURCES.txt'
+[1.167s] writing manifest file '../build/bringup/bringup.egg-info/SOURCES.txt'
+[1.167s] running build
+[1.167s] running install
+[1.168s] running install_data
+[1.168s] creating /home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/ament_index
+[1.168s] creating /home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/ament_index/resource_index
+[1.168s] creating /home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/ament_index/resource_index/packages
+[1.168s] copying resource/bringup -> /home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/ament_index/resource_index/packages
+[1.168s] copying package.xml -> /home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/bringup
+[1.168s] running install_egg_info
+[1.170s] Copying ../build/bringup/bringup.egg-info to /home/rafa/turtlebot_teleoperado/workspace/install/bringup/lib/python3.10/site-packages/bringup-0.0.0-py3.10.egg-info
+[1.171s] running install_scripts
+[1.191s] writing list of installed files to '/home/rafa/turtlebot_teleoperado/workspace/build/bringup/install.log'
+[1.227s] Invoked command in '/home/rafa/turtlebot_teleoperado/workspace/bringup' returned '0': PYTHONPATH=/home/rafa/turtlebot_teleoperado/workspace/build/bringup/prefix_override:/home/rafa/turtlebot_teleoperado/workspace/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bringup build --build-base /home/rafa/turtlebot_teleoperado/workspace/build/bringup/build install --record /home/rafa/turtlebot_teleoperado/workspace/build/bringup/install.log --single-version-externally-managed install_data

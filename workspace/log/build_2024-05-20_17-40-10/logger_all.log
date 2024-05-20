@@ -1,0 +1,177 @@
+[0.070s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.070s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b072f5bdc00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b072f5bd270>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b072f5bd270>>)
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.210s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rafa/turtlebot_teleoperado/workspace'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'bringup' with type 'ros.ament_python' and name 'bringup'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(cli_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(cli_interface) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(cli_interface) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(cli_interface) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(cli_interface) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(cli_interface) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(cli_interface) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(cli_interface) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(cli_interface) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'cli_interface' with type 'ros.ament_python' and name 'cli_interface'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.236s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rafa/turtlebot_teleoperado/workspace/cli_interface/install
+[0.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 384 installed packages in /opt/ros/humble
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rafa/turtlebot_teleoperado/workspace/build/bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rafa/turtlebot_teleoperado/workspace/install/bringup', 'merge_install': False, 'path': '/home/rafa/turtlebot_teleoperado/workspace/bringup', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cli_interface' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cli_interface' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cli_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cli_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cli_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cli_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cli_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cli_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cli_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'cli_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rafa/turtlebot_teleoperado/workspace/build/cli_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface', 'merge_install': False, 'path': '/home/rafa/turtlebot_teleoperado/workspace/cli_interface', 'symlink_install': False, 'test_result_base': None}
+[0.271s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.272s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rafa/turtlebot_teleoperado/workspace/bringup' with build type 'ament_python'
+[0.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'ament_prefix_path')
+[0.273s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/bringup/hook/ament_prefix_path.ps1'
+[0.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/bringup/hook/ament_prefix_path.dsv'
+[0.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/bringup/hook/ament_prefix_path.sh'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.277s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rafa/turtlebot_teleoperado/workspace/cli_interface' with build type 'ament_python'
+[0.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('cli_interface', 'ament_prefix_path')
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/cli_interface/hook/ament_prefix_path.ps1'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/cli_interface/hook/ament_prefix_path.dsv'
+[0.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/cli_interface/hook/ament_prefix_path.sh'
+[0.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.501s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rafa/turtlebot_teleoperado/workspace/bringup'
+[0.501s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.703s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rafa/turtlebot_teleoperado/workspace/cli_interface'
+[0.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.704s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafa/turtlebot_teleoperado/workspace/bringup': PS1=(venv) PYTHONPATH=/home/rafa/turtlebot_teleoperado/workspace/build/bringup/prefix_override:/home/rafa/turtlebot_teleoperado/workspace/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bringup build --build-base /home/rafa/turtlebot_teleoperado/workspace/build/bringup/build install --record /home/rafa/turtlebot_teleoperado/workspace/build/bringup/install.log --single-version-externally-managed install_data
+[1.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafa/turtlebot_teleoperado/workspace/cli_interface': PS1=(venv) PYTHONPATH=/home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/prefix_override:/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cli_interface build --build-base /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/build install --record /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/install.log --single-version-externally-managed install_data
+[1.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafa/turtlebot_teleoperado/workspace/bringup' returned '0': PS1=(venv) PYTHONPATH=/home/rafa/turtlebot_teleoperado/workspace/build/bringup/prefix_override:/home/rafa/turtlebot_teleoperado/workspace/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bringup build --build-base /home/rafa/turtlebot_teleoperado/workspace/build/bringup/build install --record /home/rafa/turtlebot_teleoperado/workspace/build/bringup/install.log --single-version-externally-managed install_data
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/rafa/turtlebot_teleoperado/workspace/install/bringup' for CMake module files
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/rafa/turtlebot_teleoperado/workspace/install/bringup' for CMake config files
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/lib'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/bin'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/lib/pkgconfig/bringup.pc'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/lib/python3.10/site-packages'
+[1.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'pythonpath')
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/bringup/hook/pythonpath.ps1'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/bringup/hook/pythonpath.dsv'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/bringup/hook/pythonpath.sh'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/bin'
+[1.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bringup)
+[1.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/bringup/package.ps1'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/bringup/package.dsv'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/bringup/package.sh'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/bringup/package.bash'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/bringup/package.zsh'
+[1.246s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafa/turtlebot_teleoperado/workspace/install/bringup/share/colcon-core/packages/bringup)
+[1.254s] Level 1:colcon.colcon_core.environment:checking '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface' for CMake module files
+[1.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafa/turtlebot_teleoperado/workspace/cli_interface' returned '0': PS1=(venv) PYTHONPATH=/home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/prefix_override:/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cli_interface build --build-base /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/build install --record /home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/install.log --single-version-externally-managed install_data
+[1.254s] Level 1:colcon.colcon_core.environment:checking '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface' for CMake config files
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/bin'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/pkgconfig/cli_interface.pc'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/python3.10/site-packages'
+[1.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('cli_interface', 'pythonpath')
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/cli_interface/hook/pythonpath.ps1'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/cli_interface/hook/pythonpath.dsv'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/cli_interface/hook/pythonpath.sh'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/bin'
+[1.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cli_interface)
+[1.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/cli_interface/package.ps1'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/cli_interface/package.dsv'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/cli_interface/package.sh'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/cli_interface/package.bash'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/cli_interface/package.zsh'
+[1.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/colcon-core/packages/cli_interface)
+[1.259s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.259s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.259s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.259s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.272s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.272s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.272s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.284s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafa/turtlebot_teleoperado/workspace/install/local_setup.ps1'
+[1.286s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rafa/turtlebot_teleoperado/workspace/install/_local_setup_util_ps1.py'
+[1.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafa/turtlebot_teleoperado/workspace/install/setup.ps1'
+[1.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafa/turtlebot_teleoperado/workspace/install/local_setup.sh'
+[1.290s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rafa/turtlebot_teleoperado/workspace/install/_local_setup_util_sh.py'
+[1.290s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafa/turtlebot_teleoperado/workspace/install/setup.sh'
+[1.291s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafa/turtlebot_teleoperado/workspace/install/local_setup.bash'
+[1.292s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafa/turtlebot_teleoperado/workspace/install/setup.bash'
+[1.292s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafa/turtlebot_teleoperado/workspace/install/local_setup.zsh'
+[1.293s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafa/turtlebot_teleoperado/workspace/install/setup.zsh'

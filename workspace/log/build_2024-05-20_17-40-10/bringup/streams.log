@@ -1,0 +1,18 @@
+[0.723s] Invoking command in '/home/rafa/turtlebot_teleoperado/workspace/bringup': PS1=(venv) PYTHONPATH=/home/rafa/turtlebot_teleoperado/workspace/build/bringup/prefix_override:/home/rafa/turtlebot_teleoperado/workspace/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bringup build --build-base /home/rafa/turtlebot_teleoperado/workspace/build/bringup/build install --record /home/rafa/turtlebot_teleoperado/workspace/build/bringup/install.log --single-version-externally-managed install_data
+[0.925s] running egg_info
+[0.926s] writing ../build/bringup/bringup.egg-info/PKG-INFO
+[0.926s] writing dependency_links to ../build/bringup/bringup.egg-info/dependency_links.txt
+[0.926s] writing entry points to ../build/bringup/bringup.egg-info/entry_points.txt
+[0.926s] writing requirements to ../build/bringup/bringup.egg-info/requires.txt
+[0.926s] writing top-level names to ../build/bringup/bringup.egg-info/top_level.txt
+[0.927s] reading manifest file '../build/bringup/bringup.egg-info/SOURCES.txt'
+[0.928s] writing manifest file '../build/bringup/bringup.egg-info/SOURCES.txt'
+[0.928s] running build
+[0.928s] running install
+[0.928s] running install_data
+[0.928s] running install_egg_info
+[0.930s] removing '/home/rafa/turtlebot_teleoperado/workspace/install/bringup/lib/python3.10/site-packages/bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[0.930s] Copying ../build/bringup/bringup.egg-info to /home/rafa/turtlebot_teleoperado/workspace/install/bringup/lib/python3.10/site-packages/bringup-0.0.0-py3.10.egg-info
+[0.931s] running install_scripts
+[0.946s] writing list of installed files to '/home/rafa/turtlebot_teleoperado/workspace/build/bringup/install.log'
+[0.967s] Invoked command in '/home/rafa/turtlebot_teleoperado/workspace/bringup' returned '0': PS1=(venv) PYTHONPATH=/home/rafa/turtlebot_teleoperado/workspace/build/bringup/prefix_override:/home/rafa/turtlebot_teleoperado/workspace/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bringup build --build-base /home/rafa/turtlebot_teleoperado/workspace/build/bringup/build install --record /home/rafa/turtlebot_teleoperado/workspace/build/bringup/install.log --single-version-externally-managed install_data

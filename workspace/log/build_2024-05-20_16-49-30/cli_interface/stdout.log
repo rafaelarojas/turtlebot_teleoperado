@@ -1,0 +1,23 @@
+running egg_info
+creating ../build/cli_interface/cli_interface.egg-info
+writing ../build/cli_interface/cli_interface.egg-info/PKG-INFO
+writing dependency_links to ../build/cli_interface/cli_interface.egg-info/dependency_links.txt
+writing entry points to ../build/cli_interface/cli_interface.egg-info/entry_points.txt
+writing requirements to ../build/cli_interface/cli_interface.egg-info/requires.txt
+writing top-level names to ../build/cli_interface/cli_interface.egg-info/top_level.txt
+writing manifest file '../build/cli_interface/cli_interface.egg-info/SOURCES.txt'
+reading manifest file '../build/cli_interface/cli_interface.egg-info/SOURCES.txt'
+writing manifest file '../build/cli_interface/cli_interface.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/ament_index
+creating /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/ament_index/resource_index
+creating /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/ament_index/resource_index/packages
+copying resource/cli_interface -> /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/ament_index/resource_index/packages
+copying package.xml -> /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/share/cli_interface
+running install_egg_info
+Copying ../build/cli_interface/cli_interface.egg-info to /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/python3.10/site-packages/cli_interface-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cli_interface script to /home/rafa/turtlebot_teleoperado/workspace/install/cli_interface/lib/cli_interface
+writing list of installed files to '/home/rafa/turtlebot_teleoperado/workspace/build/cli_interface/install.log'
