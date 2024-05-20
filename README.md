@@ -20,7 +20,7 @@ Clone este repositório em seu ambiente:
 
 
 ```bash
-git clone https://github.com/rafaelarojas/p1_m6
+git clone https://github.com/rafaelarojas/turtlebot_teleoperado
 ```
 
 Além disso, clone este repositório também no Robô TurtleBot, para executar o Bringup. Para clonar no robô, utiliza-se o mesmo comando descrito acima.
